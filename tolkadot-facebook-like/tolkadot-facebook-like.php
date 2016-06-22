@@ -8,6 +8,16 @@ Author: Dee Bryant
 Author URI: http://tolkadot.com
 */
 
+function tolkadot_facebook_activation() {
+}
+register_activation_hook(__FILE__, 'tolkadot_facebook_activation');
+
+function tolkadot_facebook_deactivation() {
+}
+register_deactivation_hook(__FILE__, 'tolkadot_facebook_deactivation');
+
+
+
 
 function facebook_like_button($content) {
 	
