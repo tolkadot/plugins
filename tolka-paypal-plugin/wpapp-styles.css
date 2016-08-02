@@ -24,3 +24,10 @@
 .wpapp_payment_button{
     margin: 10px 0px;
 }
+
+#paypalNumberTwo select#amount option:nth-child(-n+2){ display:none;}
+#paypalNumberOne select#amount option:nth-child(n + 3){ display:none;}
+
+#paypalNumberTwo {
+color:red;
+}
