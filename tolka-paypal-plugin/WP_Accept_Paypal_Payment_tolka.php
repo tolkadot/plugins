@@ -144,7 +144,7 @@ function Paypal_payment_accept() {
     }
 
     $output .= '<div class="wpapp_payment_button">';
-    $output .= '<input type="image" src="'.esc_url($payment_button).'" name="submit" alt="Make payments with payPal - it\'s fast, free and secure!" />';
+    $output .= '<input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-rect-paypal-34px.png" name="submit" alt="Make payments with payPal - it\'s fast, free and secure!" />';
     $output .= '</div>';
     
     $output .= '</form>';
